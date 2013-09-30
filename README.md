@@ -6,7 +6,7 @@ Mashup Awards9向けに提供している「niconicoコンテンツの横断検�
 
 niconicoのコンテンツをタグの繋がりで辿れます。
 
-[http://shoito.github.io/nico2-tag-tour/](http://shoito.github.io/nico2-tag-tour/)
+[http://shoito.github.io/nico2-tag-tour/index.html](http://shoito.github.io/nico2-tag-tour/index.html)
 
 ![nico2 tag tour](https://raw.github.com/shoito/nico2-tag-tour/master/docs/images/screenshot.png)
 
