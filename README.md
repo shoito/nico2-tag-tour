@@ -2,7 +2,7 @@ niconicoタグ回遊
 ==================
 
 ## 概要
-Mashup Awards9向けに提供している「niconicoコンテンツの横断検索API」のサンプルアプリです。
+HTML5 Japan Cup向けに提供している「niconicoコンテンツの横断検索API」のサンプルアプリです。
 
 niconicoのコンテンツをタグの繋がりで辿れます。
 
@@ -11,22 +11,20 @@ niconicoのコンテンツをタグの繋がりで辿れます。
 ![nico2 tag tour](https://raw.github.com/shoito/nico2-tag-tour/master/docs/images/screenshot.png)
 
 
-### Mashup Awards 9
-[Mashup Awards 9 (#MA9)](http://ma9.mashupaward.jp/)
+### HTML5 Japan Cup
+[HTML5 Japan Cup](https://5jcup.org/awards/dwango)
 
-[niconicoコンテンツの横断検索API | Mashup Awards 9 (#MA9)](http://ma9.mashupaward.jp/apis/264)
-
-[niconicoコンテンツの横断検索APIを利用した応募作品(新着順)](http://ma9.mashupaward.jp/works/api/264)
+[niconicoコンテンツの横断検索API | HTML5 Japan Cup](https://5jcup.org/awards/dwango)
 
 ## 解説
 ### 検索クエリ
 「オリンピック」という文字列をタグに含む動画を視聴数順に18件取得しています。
 
-タグのリンクをクリックすると「オリンピック」の部分を選択したタグの文字列に置き換えて、新たに動画情報を取得しています。
+タグのリンクをクリックすると「艦これ」の部分を選択したタグの文字列に置き換えて、新たに動画情報を取得しています。
 
 ```
 {
-   "query":"オリンピック",
+   "query":"艦これ",
    "service":[
       "video"
    ],
@@ -44,7 +42,7 @@ niconicoのコンテンツをタグの繋がりで辿れます。
    "from":0,
    "size":18,
    "issuer":"sample",
-   "reason":"ma9"
+   "reason":"html5jc"
 }
 ```
 
@@ -70,6 +68,7 @@ $ git clone https://github.com/shoito/nico2-tag-tour.git
 ```
 $ cd nico2-tag-tour
 $ npm install
+$ bower install
 ```
 
 5.コンパイル・実行
@@ -88,7 +87,7 @@ $ grunt build
 ```
 The MIT License (MIT)
 
-Copyright (c) 2013 shoito
+Copyright (c) 2014 shoito
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
