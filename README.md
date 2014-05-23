@@ -12,7 +12,7 @@ niconicoのコンテンツをタグの繋がりで辿れます。
 
 
 ### HTML5 Japan Cup
-[HTML5 Japan Cup](https://5jcup.org/awards/dwango)
+[HTML5 Japan Cup](https://5jcup.org)
 
 [niconicoコンテンツの横断検索API | HTML5 Japan Cup](https://5jcup.org/awards/dwango)
 
