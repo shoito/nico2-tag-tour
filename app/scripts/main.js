@@ -1,4 +1,4 @@
-tour = async (tag) => {
+const tour = async (tag) => {
   const url = new URL('https://api.search.nicovideo.jp/api/v2/video/contents/search')
   const params = new URLSearchParams()
   params.append('_context', 'yourapp')
