@@ -2,7 +2,7 @@ niconicoタグ回遊
 ==================
 
 ## 概要
-HTML5 Japan Cup向けに提供している「niconicoコンテンツの横断検索API」のサンプルアプリです。
+「niconicoコンテンツの横断検索API」のサンプルアプリです。
 
 niconicoのコンテンツをタグの繋がりで辿れます。
 
@@ -10,78 +10,6 @@ niconicoのコンテンツをタグの繋がりで辿れます。
 
 ![nico2 tag tour](https://raw.github.com/shoito/nico2-tag-tour/master/docs/images/screenshot.png)
 
-
-### HTML5 Japan Cup
-[HTML5 Japan Cup](https://5jcup.org)
-
-[niconicoコンテンツの横断検索API | HTML5 Japan Cup](https://5jcup.org/awards/dwango)
-
-## 解説
-### 検索クエリ
-「オリンピック」という文字列をタグに含む動画を視聴数順に18件取得しています。
-
-タグのリンクをクリックすると「艦これ」の部分を選択したタグの文字列に置き換えて、新たに動画情報を取得しています。
-
-```
-{
-   "query":"艦これ",
-   "service":[
-      "video"
-   ],
-   "search":[
-      "tags"
-   ],
-   "join":[
-      "cmsid",
-      "title",
-      "tags",
-      "thumbnail_url"
-   ],
-   "sort_by":"view_counter",
-   "order":"desc",
-   "from":0,
-   "size":18,
-   "issuer":"sample",
-   "reason":"html5jc"
-}
-```
-
-## ビルド方法
-1.NodeJSをインストールする
-
-[http://nodejs.org/](http://nodejs.org/)
-
-2.Gruntをインストールする。
-
-```
-$ npm install -g grunt-cli
-```
-
-3.git cloneする
-
-```
-$ git clone https://github.com/shoito/nico2-tag-tour.git
-```
-
-4.依存モジュールをインストールする
-
-```
-$ cd nico2-tag-tour
-$ npm install
-$ bower install
-```
-
-5.コンパイル・実行
-
-```
-$ grunt server
-```
-
-6.ビルド
-
-```
-$ grunt build
-```
 
 ## ライセンス
 ```
