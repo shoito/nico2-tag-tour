@@ -1,0 +1,74 @@
+html {
+  background: #f4f4f4;
+}
+
+body {
+  font: 13px "Lucida Grande", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 96%;
+}
+
+.contents {
+  padding: 0;
+  overflow: hidden;
+}
+
+.content {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 3px;
+  padding: 6px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+}
+
+.title {
+  font-size: 1em;
+  line-height: 1.4em;
+  max-height: 4.2em;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.tags {
+  height: 127px;
+  overflow: hidden;
+}
+
+.tag {
+  margin: 3px;
+  padding: .4em .8em;
+  font-size: 85%;
+  background: #1f8dd6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 12px 2px;
+}
+
+#js-contents-container.visible {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+#js-contents-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
