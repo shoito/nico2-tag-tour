@@ -16,7 +16,7 @@ a {
 
 .hero-unit {
     margin: 50px auto 0 auto;
-    width: 980px;
+    width: 96%;
 }
 
 .contents {
@@ -59,4 +59,16 @@ a {
 
 .footer {
     margin: 12px 2px;
+}
+
+#js-contents-container.visible {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+#js-contents-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
 }
